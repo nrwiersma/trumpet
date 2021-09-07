@@ -1,0 +1,35 @@
+project_name: trumpet
+dist: dist
+
+gomod:
+  proxy: true
+
+builds:
+  - main: ./cmd/trumpet
+    ldflags:
+      - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{ .CommitDate }}
+    goos:
+      - linux
+    goarch:
+      - amd64
+    env:
+      - CGO_ENABLED=0
+
+archives:
+  - format: binary
+
+changelog:
+  skip: true
+
+checksum:
+  name_template: '{{ .ProjectName }}_checksums.txt'
+
+dockers:
+  - dockerfile: Dockerfile
+    goos: linux
+    goarch: amd64
+    image_templates:
+      - "ghcr.io/nrwiersma/trumpet:{{ .Tag }}"
+
+snapshot:
+  name_template: "{{ .Tag }}"
