@@ -1,4 +1,4 @@
-![Logo](http://svg.wiersma.co.za/github/project?lang=go&title=trumpet&tag=dns%20sd%20services)
+![Logo](http://svg.wiersma.co.za/github/project?lang=go&title=trumpet&tag=dns%20service%20discovery)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/nrwiersma/trumpet)](https://goreportcard.com/report/github.com/nrwiersma/trumpet)
 [![Build Status](https://github.com/nrwiersma/trumpet/actions/workflows/test.yml/badge.svg)](https://github.com/nrwiersma/trumpet/actions)
@@ -8,4 +8,18 @@
 
 ## About
 
-Trumpet is a DNS-SD service announcer
+Trumpet is a DNS Service Discovery server
+
+## Usage
+
+Start the binary manually:
+
+```shell
+./trumpet server --services=example/config.yaml
+```
+
+or with docker
+
+```shell
+docker run --rm -v example/config.yaml:/config.yaml -e SERVICES=/config.yaml ghcr.io/nrwiersma/trumpet:v0.1.0
+```
