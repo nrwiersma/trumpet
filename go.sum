@@ -73,13 +73,12 @@ github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
 github.com/gorilla/context v1.1.1/go.mod h1:kBGZzfjB9CEq2AlWe17Uuf7NDRt0dE0s8S51q0aT7Yg=
 github.com/gorilla/mux v1.6.2/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
-github.com/hamba/cmd/v2 v2.1.0 h1:3BsDQP/+G/Tqdxa0ZFwGBTq4OAkW4Fr8K7+aGgpXI8o=
-github.com/hamba/cmd/v2 v2.1.0/go.mod h1:KMd/tx6apP6qdZDSQIXvyyHFjLcTN7uj2k2F9gBaYMQ=
-github.com/hamba/logger/v2 v2.2.0/go.mod h1:YkvVk8aIwAltFF2MLQ5POPW8QAxyn3M5ljEj0Q349jw=
+github.com/hamba/cmd/v2 v2.1.2 h1:TLnbxvHUTCmFt301pSTMvjd9lNQ9M3jz4QMdG6deCBs=
+github.com/hamba/cmd/v2 v2.1.2/go.mod h1:NZVfDsTMgkX1C0v2uMbrzL7JScnIKSt9XfVBuyOqM7M=
 github.com/hamba/logger/v2 v2.3.0 h1:W20zm1RtimPI6LCKUcbmKDsTats1j14E/lI6XHYurRQ=
 github.com/hamba/logger/v2 v2.3.0/go.mod h1:z66imz0yn2+Kfv4bDfgBijxJH/sMUEVwNg/KwvOJbyQ=
-github.com/hamba/statter/v2 v2.0.4 h1:GrXu0yyyu2t5ifM+kVmmAChHfL1FER82wNM5pFN5pgo=
-github.com/hamba/statter/v2 v2.0.4/go.mod h1:dyMu2zX4kOtNJAqx5tJP/n0i7wgIk0a3WVJ/x7woL10=
+github.com/hamba/statter/v2 v2.1.0 h1:5E7ddRoGAHKFoKk1nbLvVEkoRaCHVoyEeeH9VGCJzc0=
+github.com/hamba/statter/v2 v2.1.0/go.mod h1:7vJdomdhMybryIMQgofFJySR1o2fHSitDusAZ/DDIhs=
 github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpOxQnU=
 github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJSGM75WSRxI=
 github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=
