@@ -6,7 +6,7 @@ require (
 	github.com/brutella/dnssd v1.2.0
 	github.com/hamba/cmd/v2 v2.1.2
 	github.com/hamba/logger/v2 v2.3.0
-	github.com/joho/godotenv v1.3.0
+	github.com/joho/godotenv v1.4.0
 	github.com/urfave/cli/v2 v2.3.0
 	gopkg.in/yaml.v2 v2.4.0
 )
