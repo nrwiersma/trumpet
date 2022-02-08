@@ -1,10 +1,5 @@
-FROM alpine:latest as builder
+FROM  gcr.io/distroless/static:nonroot
 
-RUN apk --no-cache --update add ca-certificates
-
-FROM scratch
-
-COPY --from=builder /etc/ssl/certs /etc/ssl/certs
 COPY trumpet /trumpet
 
 EXPOSE 5353
