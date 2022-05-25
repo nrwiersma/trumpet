@@ -7,12 +7,11 @@ require (
 	github.com/hamba/cmd/v2 v2.3.0
 	github.com/hamba/logger/v2 v2.3.0
 	github.com/joho/godotenv v1.4.0
-	github.com/urfave/cli/v2 v2.8.0
+	github.com/urfave/cli/v2 v2.8.1
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
 
 require (
-	github.com/antzucaro/matchr v0.0.0-20210222213004-b04723ef80f0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cactus/go-statsd-client/v5 v5.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
@@ -34,6 +33,7 @@ require (
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/valyala/fastrand v1.1.0 // indirect
+	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	go.opentelemetry.io/otel v1.6.3 // indirect
 	go.opentelemetry.io/otel/exporters/jaeger v1.6.3 // indirect
 	go.opentelemetry.io/otel/exporters/zipkin v1.6.3 // indirect
