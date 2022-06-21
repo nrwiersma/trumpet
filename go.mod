@@ -7,7 +7,7 @@ require (
 	github.com/hamba/cmd/v2 v2.4.0
 	github.com/hamba/logger/v2 v2.3.0
 	github.com/joho/godotenv v1.4.0
-	github.com/urfave/cli/v2 v2.10.1
+	github.com/urfave/cli/v2 v2.10.2
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -16,7 +16,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cactus/go-statsd-client/v5 v5.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
