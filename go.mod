@@ -3,7 +3,7 @@ module github.com/nrwiersma/trumpet
 go 1.18
 
 require (
-	github.com/brutella/dnssd v1.2.2
+	github.com/brutella/dnssd v1.2.3
 	github.com/hamba/cmd/v2 v2.4.0
 	github.com/hamba/logger/v2 v2.3.0
 	github.com/joho/godotenv v1.4.0
@@ -26,7 +26,7 @@ require (
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
-	github.com/miekg/dns v1.1.48 // indirect
+	github.com/miekg/dns v1.1.50 // indirect
 	github.com/openzipkin/zipkin-go v0.4.0 // indirect
 	github.com/prometheus/client_golang v1.12.2 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
