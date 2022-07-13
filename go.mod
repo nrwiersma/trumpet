@@ -4,8 +4,8 @@ go 1.18
 
 require (
 	github.com/brutella/dnssd v1.2.3
-	github.com/hamba/cmd/v2 v2.4.0
-	github.com/hamba/logger/v2 v2.3.0
+	github.com/hamba/cmd/v2 v2.5.0
+	github.com/hamba/logger/v2 v2.4.0
 	github.com/joho/godotenv v1.4.0
 	github.com/urfave/cli/v2 v2.11.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -36,11 +36,11 @@ require (
 	github.com/valyala/fastrand v1.1.0 // indirect
 	github.com/valyala/histogram v1.2.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	go.opentelemetry.io/otel v1.7.0 // indirect
-	go.opentelemetry.io/otel/exporters/jaeger v1.7.0 // indirect
-	go.opentelemetry.io/otel/exporters/zipkin v1.7.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.7.0 // indirect
-	go.opentelemetry.io/otel/trace v1.7.0 // indirect
+	go.opentelemetry.io/otel v1.8.0 // indirect
+	go.opentelemetry.io/otel/exporters/jaeger v1.8.0 // indirect
+	go.opentelemetry.io/otel/exporters/zipkin v1.8.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.8.0 // indirect
+	go.opentelemetry.io/otel/trace v1.8.0 // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3 // indirect
 	golang.org/x/net v0.0.0-20220421235706-1d1ef9303861 // indirect
 	golang.org/x/sys v0.0.0-20220422013727-9388b58f7150 // indirect
