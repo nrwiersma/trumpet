@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/brutella/dnssd v1.2.3
 	github.com/hamba/cmd/v2 v2.4.0
-	github.com/hamba/logger/v2 v2.3.0
+	github.com/hamba/logger/v2 v2.4.0
 	github.com/joho/godotenv v1.4.0
 	github.com/urfave/cli/v2 v2.11.0
 	gopkg.in/yaml.v3 v3.0.1
