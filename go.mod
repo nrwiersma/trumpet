@@ -7,7 +7,7 @@ require (
 	github.com/hamba/cmd/v2 v2.5.0
 	github.com/hamba/logger/v2 v2.4.0
 	github.com/joho/godotenv v1.4.0
-	github.com/urfave/cli/v2 v2.11.1
+	github.com/urfave/cli/v2 v2.11.2
 	gopkg.in/yaml.v3 v3.0.1
 )
 
