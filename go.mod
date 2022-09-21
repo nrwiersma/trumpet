@@ -3,7 +3,7 @@ module github.com/nrwiersma/trumpet
 go 1.18
 
 require (
-	github.com/brutella/dnssd v1.2.3
+	github.com/brutella/dnssd v1.2.4
 	github.com/hamba/cmd/v2 v2.5.0
 	github.com/hamba/logger/v2 v2.4.0
 	github.com/joho/godotenv v1.4.0
